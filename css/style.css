@@ -1,0 +1,23 @@
+body {
+    font-family: Merriweather;
+    background-color: #9e9a29;
+    color: #63399e;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fredericka the Great";
+    font-size: 60pt;
+}
+header {
+    text-align: center;}
+ h1   {
+     text-shadow:0 -5px #be8fff;
+     text-align: center;
+}
+#hero, footer {text-align:center ;
+}
+#hero img {width:300px;
+background-color: #be8fff;
+}
+#bio {text-align: center;}
