@@ -1,6 +1,6 @@
 body {
     font-family: Merriweather;
-    background-color: #9e9a29;
+    background-color: #d3d2b0;
     color: #63399e;
 
 }
@@ -20,4 +20,14 @@ header {
 #hero img {width:300px;
 background-color: #be8fff;
 }
-#bio {text-align: center;}
+#bio {text-align: center;
+font-size: 30px;}
+
+#bio img {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+#Homeinfo {text-align: center;
+font-size: 30px;}
