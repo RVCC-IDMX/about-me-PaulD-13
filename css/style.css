@@ -43,3 +43,14 @@ ul {
     
   }
 #hobbies ul :nth-child(even) {color:lightcoral}
+
+#gallery {
+    border: 22px solid black;
+
+}
+#gallery figure {text-align: center;}
+
+
+#gallery img {
+    max-width: 100%;
+}
