@@ -10,6 +10,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 60pt;
     text-align: center;
 }
+
+h2 {
+    margin: .1em;
+}
+
 header {
     text-align: center;}
  h1   {
@@ -44,11 +49,17 @@ ul {
   }
 #hobbies ul :nth-child(even) {color:lightcoral}
 
+#hobbies
+  {display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 #gallery {
     border: 22px solid black;
 
 }
-#gallery figure {text-align: center;}
+#gallery figure {text-align: center;
+font-size: 23px;}
 
 
 #gallery img {
@@ -56,4 +67,18 @@ ul {
 }
 
 #lit {border: 22px solid black;
-    font-family: 'Creepster'}
+    font-family: 'Creepster';
+font-size: 32px;}
+
+@media screen and (min-width: 60em) {
+
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
