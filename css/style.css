@@ -70,6 +70,8 @@ font-size: 23px;}
     font-family: 'Creepster';
 font-size: 32px;}
 
+/* tablet size */
+
 @media screen and (min-width: 60em) {
 
     figure {
@@ -80,5 +82,33 @@ font-size: 32px;}
         display: flex;
         justify-content: center;
         align-items: center;
+    }}
 
+    figure img {
+        width: 100%;
     }
+
+#lit div 
+{max-width: 100%;
+columns: 20rem;}
+
+/* large screen size */
+
+@media screen and (min-width: 100em){
+
+    #gallery {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+
+hr {
+    display: none;
+}
+#gallery h2 {
+    grid-column: 1/-1;
+}
+figure {
+    display: block;
+}
