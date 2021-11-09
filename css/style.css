@@ -24,7 +24,7 @@ header {
 #hero, footer {text-align:center ;
 }
 #hero img {width:300px;
-background-color: #be8fff;
+background-color: #a29baa;
 }
 #bio {text-align: center;
 font-size: 30px;}
@@ -142,4 +142,49 @@ p {
     width: 100%;
 }
 
+/* Contact Form */
 
+#formelements {
+    display:grid;
+    row-gap: .5em;
+
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+fieldset {
+    border: 10px solid black;
+
+}
+
+legend{
+
+    background-color: #be8fff;
+    color: black;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+#contact ul{
+    list-style: none;
+    padding: 0px;
+    background-color: #d3d2b0;
+}
+
+#contact li{
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #be8fff;
+    color: black;
+    justify-self: center;
+    max-width: 350px;
+    width: 40%;
+}
