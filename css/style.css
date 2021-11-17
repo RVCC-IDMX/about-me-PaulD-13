@@ -54,17 +54,23 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+
+
 #gallery {
     border: 22px solid black;
+    opacity: 0.5;
 
+}
+#gallery:hover {
+    opacity: 1;
 }
 #gallery figure {text-align: center;
 font-size: 23px;}
 
 
 #gallery img {
-    max-width: 100%;
-}
+    max-width: 100%;}
+        
 
   
   #lit {border: 22px solid black;
